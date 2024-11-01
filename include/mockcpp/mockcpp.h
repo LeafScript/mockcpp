@@ -18,7 +18,7 @@
 #ifndef __MOCKCPP_H
 #define __MOCKCPP_H
 
-#include <fake_boost/fake_boost.h>
+#include "../../3rdparty/fake_boost/fake_boost.h"
 
 #if !defined(MOCKCPP_NO_NAMESPACE) || (MOCKCPP_NO_NAMESPACE == 0)
 # define MOCKCPP_NS mockcpp
